@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook | Login-Page </title>
+    <!-- linking css file -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster+Two&family=Montserrat:wght@300&family=Noto+Serif:ital,wght@1,700&family=Poppins&family=Tilt+Warp&display=swap" rel="stylesheet">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/de1287c4a3.js" crossorigin="anonymous"></script>
+    <!-- Media query -->
+    <link rel="stylesheet" media="screen and (max-width: 1250px)" href="./phone.css">
+</head>
+<body>
+    <h1 id = fb>facebook</h1>
+    <div class="card">
+        <h1 class="create">Create a new Account</h1>
+        <p class="quick">It's quick and easy</p>
+        <hr>
+        <form>
+            <div class="name">
+                <input type="text" name="text" id="text" placeholder="First name">
+                <input type="text" name="text" id="text" placeholder="Surname">
+            </div>
+            <input type="email" type="number" name="email" id="email" placeholder="Mobile number or email address">
+            <input type="password" name="password" id="password" placeholder="New password">
+            <label for="DOB" id="DOB">Date of birth <i class="fa-solid fa-circle-question" title="Click for more Information"></i></label>
+            <div class="dob">
+                <button>10 <i class="fa-solid fa-angle-down"></i></button>
+                <button>March <i class="fa-solid fa-angle-down"></i></button>
+                <button>2023 <i class="fa-solid fa-angle-down"></i></button>
+            </div>
+            <label for="gender" id="Gender">Gender <i class="fa-solid fa-circle-question" title="Click for more Information"></i></label>
+            <div class="gender">
+                <button>Female <input type="radio" name="radio" id="female"></button>
+                <button>Male <input type="radio" name="radio" id="Male"></button>
+                <button>Custom <input type="radio" name="radio" id="custom"></button>
+            </div>
+            <div class="para">
+                <span>People who use our service may have uploaded your contact information to Facebook.</span> <span><a href="#">Learn more.</a></span>
+                <p>By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.</p>
+            </div>
+            <div class="end">
+                <button class="signup">Sign Up</button>
+                <a href="#">Already have an account?</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+.card{
+    width: 80vw;
+    height: 100vh;
+    padding: 10px 10px;
+}
+hr{
+    width: 80vw;
+}
+.name input{
+    width: 35vw;
+}
+#email{
+    width: 75vw;
+}
+#password{
+    width: 75vw;
+}
+.dob button{
+    justify-content: space-between;
+}
+.dob{
+    gap: 4px;
+}
+.signup{
+    width: 40vw;
+}
